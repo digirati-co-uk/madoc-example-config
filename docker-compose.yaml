@@ -19,7 +19,7 @@ services:
     ports:
       - "8898:80"
     volumes:
-      - ./example-madoc-theme:/srv/omeka/themes/example-madoc-theme
+      - ./custom-madoc-theme:/srv/omeka/themes/custom-madoc-theme
 
   mysql:
     container_name: madoc-example-database
