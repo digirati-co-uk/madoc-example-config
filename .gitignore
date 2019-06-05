@@ -1,0 +1,3 @@
+var/database/es
+var/files
+!var/.gitkeep
