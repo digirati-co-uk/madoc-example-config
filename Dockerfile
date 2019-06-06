@@ -1,5 +1,5 @@
 # This is a pre-release
-FROM digirati/madoc-platform:v1.2.x-de3f029
+FROM digirati/madoc-platform:v1.2.x-04d001c
 
 # Add our theme
 ADD --chown=www-data:www-data ./custom-madoc-theme /srv/omeka/themes/custom-madoc-theme
